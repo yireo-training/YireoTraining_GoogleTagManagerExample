@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:View/Layout:etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="yireo_googletagmanager2.data-layer">
+            <arguments>
+                <argument name="data_layer_processors" xsi:type="array">
+                    <item name="example" xsi:type="object">
+                        YireoTraining\GoogleTagManagerExample\DataLayer\Processor\Example
+                    </item>
+                </argument>
+
+                <argument name="data_layer_events" xsi:type="array">
+                    <item name="example" xsi:type="object">YireoTraining\GoogleTagManagerExample\DataLayer\Event\ExampleEvent</item>
+                </argument>
+
+                <argument name="data_layer" xsi:type="array">
+                    <item name="example" xsi:type="string">example</item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>

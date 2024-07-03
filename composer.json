@@ -1,0 +1,21 @@
+{
+  "name": "yireo-training/module-google-tag-manager-example",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "yireo/magento2-googletagmanager2": "3.9.*"
+  },
+  "license": [
+    "Open Software License (OSL)"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "YireoTraining\\GoogleTagManagerExample\\": ""
+    }
+  }
+}
